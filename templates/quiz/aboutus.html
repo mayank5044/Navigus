@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-align: center;
+      background: url(static/image/about.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    }
+
+    
+    .alert {
+      margin: 0px;
+
+    }
+    
+
+
+  </style>
+
+  <title></title>
+</head>
+
+<body>
+
+  {% include "quiz/navbar.html" %}
+  <br><br>
+  <center>
+   
+  </center>
+  <div class="jumbotron" style="margin-bottom: 0px;margin-top: 0px;">
+     <h3 class="border-pill"style="color: black">About Us !</h3><br>
+    
+    <p class="lead">At Navigus, we realise the potential of resolving this colossal problem plaguing the stage with unfortunate young careers going astray. The mission of Navigus is laid on making career-course-college decision a concrete science. We plan to achieve this by deploying a cutting edge Artificial Intelligence and Data Science to create a virtual replica of students, identify their sweet spot between will, skill and motivations and map them to their best fit course-college-career combination -
+      thus providing them a platform for self discovery at an early stage of life.</p>
+    <hr class="my-4">
+  <br><br><br><br><br><br>
+    <p class="lead">
+      <a class="btn btn-secondary btn-sm" href="/" role="button">Home</a>
+    </p><br><br><br><br><br>
+  </div>
+  <br>
+  <br>
+  <br><br><br>
+  {% include "quiz/footer.html" %}
+</body>
+
+</html>

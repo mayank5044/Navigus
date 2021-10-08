@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<style>
+  body{
+    
+    background: url("/static/image/teacher1.jfif") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .jumbotron{
+    margin-bottom: 0px;
+    background: url("/static/image/teacher1.jfif") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  p{
+    color:#f8f9fa ;
+  }
+  
+
+</style>
+<body>
+  {% include "quiz/navbar.html" %}
+<br>
+<section id="section-jumbotron" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center">
+  <div class="container text-center">
+  <br>
+    <h1 class="display-2 text-dark"><b>Let's Quiz</b></h1><br><br><br><br>
+    
+
+    
+
+    <h1 class="lead text-dark display-4">Welcome to Quiz Academy!</h1><br><br>
+    <a  href="/student/studentclick" class="btn btn-lg btn-dark rounded-pill" style="padding-right: 10px; padding-left: 10px;"><b>Student Login</b></a>
+    <a href="/adminclick" class="btn btn-lg btn-dark rounded-pill" style="padding-right: 10px; padding-left: 10px;"><b>Teacher Login</b></a><br>
+<!--    <a href="/student/studentsignup" class="btn btn-lg btn-dark rounded-pill" style="padding-right: 10px; padding-left: 10px;"><b>Lets's Go!!!</b></a><br>-->
+<!--    -->
+    
+  </div>  
+</section>
+  {% include "quiz/footer.html" %}
+
+
+</body>
+
+</html>

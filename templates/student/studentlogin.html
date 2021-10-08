@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+{% load widget_tweaks %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url("/static/image/cube.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: white;
+
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 100px
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    
+    margin: 20px;
+    margin-left: 90px;
+    text-align: center;
+    border-bottom:  1px solid #3498db;
+    padding: 10px 0px;
+    width: 250px;
+    border-radius: 0px;
+    color: black;
+    
+    transition: 0.25s
+}
+
+.box h1 {
+    color: black;
+    margin-bottom:50px;
+    border-bottom:6px solid #000000;
+    text-transform: uppercase;
+    padding: 13px 0;
+    font-weight: 500
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 2px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+<!--.box input[type="submit"]:hover {-->
+<!--    background: #000000-->
+<!--    color: white;-->
+<!--}-->
+
+
+    </style>
+  </head>
+  <body>
+    {% include "quiz/navbar.html" %}
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <form class="box" method="post">
+                    {% csrf_token %}
+                    <h1>Student Login</h1>
+
+
+                     {% render_field form.username class="form-control" placeholder="Enter your Username" %}
+                     {% render_field form.password class="form-control" placeholder="Enter your Password" %}
+
+                     <input type="submit" name="" value="Login">
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
+{% include "quiz/footer.html" %}
+  </body>
+</html>
