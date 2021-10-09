@@ -2,6 +2,11 @@
 Navigus Quiz
 
 
+# THIS IS HOW OUR WEBSITE LOOKS LIKE!!!
+
+![Screenshot](Screenshot(1434).png)
+
+
 
 # BEFORE RUNNING CHECK REQUIREMENTS OR INSTALL BELOW MENTIONED 
 
