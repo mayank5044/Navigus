@@ -4,7 +4,23 @@ Navigus Quiz
 
 # THIS IS HOW OUR WEBSITE LOOKS LIKE!!!
 
-![Screenshot](Screenshot10.png)
+
+
+![Screenshot](Screenshot21.png)
+![Screenshot](Screenshot21.png)
+![Screenshot](Screenshot21.png)
+![Screenshot](Screenshot21.png)
+![Screenshot](Screenshot21.png)
+![Screenshot](Screenshot21.png)
+![Screenshot](Screenshot21.png)
+![Screenshot](Screenshot21.png)
+![Screenshot](Screenshot21.png)
+![Screenshot](Screenshot21.png)
+![Screenshot](Screenshot21.png)
+![Screenshot](Screenshot21.png)
+![Screenshot](Screenshot21.png)
+
+
 
 
 
