@@ -7,18 +7,17 @@ Navigus Quiz
 
 
 ![Screenshot](Screenshot21.png)
-![Screenshot](Screenshot21.png)
-![Screenshot](Screenshot21.png)
-![Screenshot](Screenshot21.png)
-![Screenshot](Screenshot21.png)
-![Screenshot](Screenshot21.png)
-![Screenshot](Screenshot21.png)
-![Screenshot](Screenshot21.png)
-![Screenshot](Screenshot21.png)
-![Screenshot](Screenshot21.png)
-![Screenshot](Screenshot21.png)
-![Screenshot](Screenshot21.png)
-![Screenshot](Screenshot21.png)
+![Screenshot](Screenshot20.png)
+![Screenshot](Screenshot19.png)
+![Screenshot](Screenshot18.png)
+![Screenshot](Screenshot17.png)
+![Screenshot](Screenshot16.png)
+![Screenshot](Screenshot15.png)
+![Screenshot](Screenshot14.png)
+![Screenshot](Screenshot13.png)
+![Screenshot](Screenshot12.png)
+![Screenshot](Screenshot11.png)
+![Screenshot](Screenshot10.png)
 
 
 
