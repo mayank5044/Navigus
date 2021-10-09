@@ -4,7 +4,7 @@ Navigus Quiz
 
 # THIS IS HOW OUR WEBSITE LOOKS LIKE!!!
 
-![Screenshot](Screenshot(1434).png)
+![Screenshot](Screenshot (1434).png)
 
 
 
